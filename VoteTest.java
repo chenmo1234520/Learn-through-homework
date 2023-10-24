@@ -112,7 +112,7 @@ class Student {
 
 }
 
-public class Text4 {
+public class VoteTest {
   public static void main(String[] args) {// 主要函数
     Scanner sc = new Scanner(System.in);
     String[] StudentList = { "st1", "st2", "st3", "st4", "st5", "st6", "st7", "st8", "st9", "st10" }; // 学生姓名数组列表
