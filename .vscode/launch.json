@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Expressage",
+            "request": "launch",
+            "mainClass": "Expressage",
+            "projectName": "LearnThroughHomework_5d6b797f"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaServerApp<eureka>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.eureka.EurekaServerApp",
+            "projectName": "eureka",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "encoding": "UTF-8"
+        }
+    ]
+}
