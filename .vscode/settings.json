@@ -1,0 +1,40 @@
+
+{
+  "workbench.colorTheme": "Dracula Soft",
+  "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "json.schemas": [],
+  "eslint.options": {
+      "extensions": [
+          ".js",
+          ".vue"
+      ]
+  },
+  "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "vue-html",
+      {
+          "language": "vue",
+          "autoFix": true
+      },
+      {
+          "language": "html",
+          "autoFix": true
+      }
+  ],
+  "eslint.run": "onSave",
+  "eslint.autoFixOnSave": true,
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+  },
+  "[vue]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": ""}
